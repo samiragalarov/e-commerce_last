@@ -1,0 +1,153 @@
+.mains{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.basketbox{
+    width: 70%;
+    height: 90%;
+
+}
+.baskethead{
+    width: 100%;
+    height: 5%;
+    background-color: salmon;
+
+    display: flex;
+
+}
+.Product{
+    width: 60%;
+    height: 70%;
+    padding-top: 6px;
+
+}
+.basketheadname{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+}
+.Quantity{
+    width: 20%;
+    height: 100%;
+
+}
+.Subtotal{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 8px;
+
+}
+.basketcards{
+    width: 100%;
+    height: 65%;
+    overflow-y: scroll;
+
+
+
+}
+.paymentpart{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding-top: 18px;
+
+
+}
+.paymentbox{
+    width: 35%;
+    height: 65%;
+    border-top: 4px solid red;
+
+    display: flex;
+
+}
+.paymentbutton{
+    width: 35%;
+    height: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.paymentbuttoninner{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    color: white;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: large;
+
+}
+.paymentbox p{
+    width: 100%;
+    height: 33%;
+    font-weight: bold;
+    color: #243a6f;
+    display: flex;
+    align-items: center;
+}
+.paymentboxpart1{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+.paymentboxpart2{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+   
+
+
+}
+.paymentboxpart2 p{
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media only screen and (max-width:550px){
+    .basketbox{
+        width: 90%;
+    }
+
+    
+
+}
+@media only screen and (max-width:850px){
+    .paymentbox{
+        width: 100%;
+
+    }
+    .paymentbuttoninner{
+        width: 200px;
+       
+
+
+    }
+    .paymentbutton{
+        width: 70%;
+    }
+    .paymentpart{
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}

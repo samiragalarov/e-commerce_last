@@ -1,0 +1,28 @@
+.deletemain{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    overflow-y: scroll;
+
+}
+.deletePost{
+    width: 280px;
+    height: 450px;
+    background-color: rgb(243, 243, 243);
+    margin: 20px;
+
+
+}
+.Removebutton{
+    background-color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 60px;
+    cursor: pointer;
+   
+
+}

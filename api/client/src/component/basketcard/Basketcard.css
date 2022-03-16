@@ -1,0 +1,107 @@
+.basketcardinner{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    margin: 14px 0px 0px 14px;
+
+}
+.basketcardspro{
+    width: 60%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+
+}
+.basketinside{
+    width: 210px;
+    height: 95px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.basketinsideimg{
+    position: relative;
+    width: 85px;
+    height: 85px;
+}
+.basketinsideimg img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.basketinsidetext{
+    width: 115px;
+    height: 85px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.basketinsidetext p {
+    color: #243a6f;
+
+}
+.basketinsidetext span{
+    color: #243a6f;
+
+}
+.basketinsidetext a{
+    color: red;
+    font-weight: bolder;
+}
+.basketcardsquantity{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.basketcardsquantity input{
+    width: 30px;
+    height: 30px;
+}
+.basketcardsprice{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.basketcardsprice p{
+    padding-right: 15px;
+
+}
+
+
+
+
+@media only screen and (max-width:550px){
+    .basketinside{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: 130px;
+    }
+    .basketcardinner{
+        height: 140px;
+    }
+    .basketinsideimg{
+        width: 100px;
+        height: 190px;
+
+    }
+    .basketinsideimg img{
+
+    }
+ 
+    
+
+}

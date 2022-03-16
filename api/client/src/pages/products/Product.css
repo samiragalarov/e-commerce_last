@@ -1,0 +1,129 @@
+ *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 150vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.productshead{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.productshead select{
+    width: 130px;
+    height: 30px;
+}
+.innerproducts{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    
+
+}
+.paginationa{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  
+  .pagination a.active {
+    background-color: tomato;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+  
+@media only screen and (max-width:1150px){
+    .innerproducts{
+        flex-direction: row;
+
+    }
+
+
+}
+@media only screen and (max-width:1150px){
+    .main{
+        height: 195vh;
+    }
+    .productshead{
+        height: 5%;
+    }
+    .innerproducts{
+            height: 90%;
+    }
+    .pagination{
+        height: 5%;
+
+    }
+}
+@media only screen and (max-width:875px){
+    .main{
+        height: 250vh;
+    }
+    .productshead{
+        height: 3%;
+    }
+    .innerproducts{
+            height: 94%;
+    }
+    .pagination{
+        height: 3%;
+
+    }
+
+
+}
+@media only screen and (max-width:565px){
+    .main{
+        height: 470vh;
+    }
+
+}
+@media only screen and (max-width:430px){
+    .main{
+        height: 600vh;
+    }
+    .productshead{
+        height: 2%;
+    }
+    .innerproducts{
+            height: 96%;
+    }
+    .pagination{
+        height: 2%;
+
+    }
+
+} 

@@ -1,0 +1,292 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.singlemain{
+    width: 100%;
+    height: 92vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sinnngleinnerproduct{
+    width:  75%;
+    height: 80%;
+
+    display: flex;  
+
+}
+
+.productinnerimage{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+
+   
+
+}
+.productinnerimagemMain{
+    width: 90%;
+    height: 80%;
+
+    margin-bottom: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+   
+    
+}
+
+.productinnerimagemMain img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+
+.productinnerimageMini{
+    width: 90%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+
+}
+.ProMiniImg.border{
+    border: 2px solid red;
+}
+.ProMiniImg{
+    width: 20%;
+    height: 90%;
+    position: relative;
+    cursor: pointer;
+}
+.ProMiniImg img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+.productinnertext{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 10px 20px 100px 20px;
+
+
+}
+.productinnertext span{
+    color: #243a6f;
+    font-weight: bold;
+    font-size: large;
+}
+.productinnertext h1{
+    font-size: 40px;
+    color: #243a6f;
+
+}
+.productinnertext .price{
+    color: tomato;
+    font-weight: bolder;
+    font-size: 25px;
+}
+.productinnertext select {
+
+
+}
+.productinnertext .form{
+    width: 320px;
+    height: 50px;
+  
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+    
+}
+.texty{
+    width: 3px;
+    height: 3px;
+    border: none;
+
+}
+.productinnertext .form .text .addCart{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-weight: bolder;
+}
+.productinnertext .form .addCart{
+    width: 140px;
+    height: 35px;
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 11px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.productinnertext h3{
+    color: #243a6f;
+
+}
+.productinnertext p{
+    color: #243a6f;
+    font-size: large;
+}
+
+@media only screen and (max-width:1100px){
+    .sinnngleinnerproduct{
+        width: 90%;
+    }
+
+
+}
+@media only screen and (max-width:900px){
+    .sinnngleinnerproduct{
+        width: 100%;
+    }
+
+
+}
+@media only screen and (max-width:800px){
+    .singlemain{
+        
+        height: 150vh;
+       
+
+    }
+    .sinnngleinnerproduct{
+        flex-direction: column;
+       
+    }
+    .productinnerimage{
+        width: 100%;
+        height: 60%;
+
+    }
+    .productinnertext{
+        width: 100%;
+        height: 60%;
+
+    }
+
+   .productinnertext{
+       padding: 10px 20px 0px 20px;
+
+   }
+
+
+}
+@media only screen and (max-width:500px){
+    .sinnngleinnerproduct{
+        height: 90%;
+    }
+
+}
+/* relatedProducts */
+
+.relatedProducts{
+    width: 100%;
+    height: 75vh;
+
+    display: flex;
+    flex-direction: column;
+
+   
+
+}
+.relatedHead{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0px 100px 0px 100px;
+
+}
+.relatedHead p:first-child{
+    color: #243a6f;
+    font-weight: bolder;
+    font-size: 25px;
+
+}
+.relatedHead p{
+    color: #243a6f;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+.reltedinnerproduct{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 50px 0px 50px;
+    flex-wrap: wrap;
+
+}
+@media only screen and (max-width:1200px){
+    .relatedProducts{
+        height: 130vh;
+    }
+
+}
+@media only screen and (max-width:670px){
+    .relatedProducts{
+        height: 240vh;
+    }
+    .relatedHead{
+    
+        height: 5%;
+    }
+    .reltedinnerproduct{
+        height: 95%;
+  
+    
+    }
+    .relatedHead{
+        padding: 0px 20px 0px 20px;
+    }
+
+}
+@media only screen and (max-width:450px){
+    .relatedProducts{
+        height: 300vh;
+    }
+    .relatedHead{
+        padding: 0px 20px 0px 20px;
+    }
+
+
+}
+
+
+
+
+
+

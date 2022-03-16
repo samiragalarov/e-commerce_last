@@ -1,0 +1,132 @@
+ *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.loginmain{
+    width: 100%;
+    height: 80vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.loginbox{
+    width: 40%;
+    height: 60%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.loginhead{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.loginusername{
+    width: 100%;
+    height: 20%;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+
+}
+.usernameicon{
+    width: 85%;
+    height: 55%;
+    background-color: white;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+
+
+    
+}
+.usernameicon i{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.usernameicon input{
+    width: 90%;
+    height: 100%;
+    border: none;
+    padding-left: 10px;
+    
+}
+.loginpassword{
+    width: 100%;
+    height: 20%;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.loginpasswordicon{
+    width: 85%;
+    height: 55%;
+    background-color: white;
+    display: flex;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+}
+.loginpasswordicon input{
+    width: 90%;
+    height: 100%;
+    border: none;
+    padding-left: 10px;
+
+}
+.loginpasswordicon i{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.loginbutton{
+    width: 100%;
+    height: 45%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+
+}
+.loginbuttoninner{
+    width: 72%;
+    height: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+}
+.loginbutton  p{
+    color: #243a6f;
+}
+@media only screen and (max-width: 850px){
+    .loginbox{
+        width: 80%;
+    }
+
+}
+@media only screen and (max-width: 450px){
+    .loginbox{
+        width: 90%;
+    }
+} 
