@@ -19,7 +19,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: "http://localhost:3000", // <-- location of the react app were connecting to
+    origin: "https://e-commercesamir.herokuapp.com/", // <-- location of the react app were connecting to
     credentials: true,
   })
 );
@@ -45,7 +45,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage }); 
 
 
-app.post('/upload', upload.array('avatar'), (req, res) => {
+app.post('https://e-commercesamir.herokuapp.com/upload', upload.array('avatar'), (req, res) => {
   return res.json({ status: 'OK', uploaded: req.files.length });
 });
 
