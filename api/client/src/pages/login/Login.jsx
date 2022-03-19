@@ -53,9 +53,10 @@ export function Login(){
     return(
         <>
         <Navbar/>
-        <main className='loginmain'>
-            <h3>admin panel username ("admin")</h3>
+        <h3>admin panel username ("admin")</h3>
             <h3>admin panel password ("admin")</h3>
+        <main className='loginmain'>
+
 
             <div className='loginbox'>
                 <div className='loginhead'>

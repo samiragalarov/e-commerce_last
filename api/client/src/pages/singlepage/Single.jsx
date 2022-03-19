@@ -18,7 +18,7 @@ export function SinglePage() {
     const [RelatedPost, setRealted] = useState([])
     const [productsize, setproductsize] = useState('32')
     const [quantity, setQuantity] = useState("1")
-    const PF = "http://localhost:4000/images/";
+    const PF = "https://e-commercesamir.herokuapp.com/images/";
     const [curphoto, setcurPhoto] = useState( );
     const [curborder, setborder] = useState(0);
 
@@ -26,7 +26,7 @@ export function SinglePage() {
     useEffect(() => {
         const handleRealted = async () => {
             try {
-                const res = await axios.get(`http://localhost:4000/relatedproduct/?categories=${curtpost.categories}`)
+                const res = await axios.get(`https://e-commercesamir.herokuapp.com/relatedproduct/?categories=${curtpost.categories}`)
                 setRealted(res.data)
                
                 
@@ -46,7 +46,7 @@ export function SinglePage() {
     useEffect(() => {
         const handelegetSingale = async () => {
             try {
-                const res = await axios.get(`http://localhost:4000/getProducts/${window.location.pathname.split("/")[2]}`,
+                const res = await axios.get(`https://e-commercesamir.herokuapp.com/getProducts/${window.location.pathname.split("/")[2]}`,
                     {
                         headers: {
                             'Authorization': `Basic ${localStorage.getItem("accsesToken")}`
