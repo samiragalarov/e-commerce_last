@@ -54,6 +54,8 @@ export function Login(){
         <>
         <Navbar/>
         <main className='loginmain'>
+            <h3>admin panel username ("admin")</h3>
+            <h3>admin panel password ("admin")</h3>
 
             <div className='loginbox'>
                 <div className='loginhead'>

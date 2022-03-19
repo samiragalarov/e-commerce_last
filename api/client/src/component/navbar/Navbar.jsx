@@ -42,7 +42,7 @@ export function Navbar() {
         localStorage.removeItem("userid")
         localStorage.removeItem("admin")
         localStorage.removeItem("user")
-        window.location.replace("http://localhost:3000/login")
+        window.location.replace("https://e-commercesamir.herokuapp.com/login")
     }
 
     function openNav() {

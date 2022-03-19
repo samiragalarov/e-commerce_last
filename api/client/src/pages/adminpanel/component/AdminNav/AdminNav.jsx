@@ -8,7 +8,7 @@ export function AdminNav() {
         localStorage.removeItem("username")
         localStorage.removeItem("userid")
         localStorage.removeItem('user')
-        window.location.replace("/")
+        window.location.replace("https://e-commercesamir.herokuapp.com/login")
     }
     return (
         <>
