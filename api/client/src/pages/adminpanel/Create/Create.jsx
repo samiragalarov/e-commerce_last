@@ -21,7 +21,7 @@ export function AdminPanel() {
     const submitButton = useRef(null);
 
     const handleSubmit = async (e) => {
-        e.preventDefault(e);  //nese olsa buna bax
+        e.preventDefault(e);  
         const newPost = {
             title: postname,
             desc: postdetail,

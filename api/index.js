@@ -44,7 +44,7 @@ const storage = multer.diskStorage({
 const upload = multer({ storage }); 
 
 
-app.post('/upload', upload.array('avatar'), (req, res) => {
+app.post('/upload', upload.array('avatar' ,6), (req, res) => {
   return res.json({ status: 'OK', uploaded: req.files.length });
 });
 
